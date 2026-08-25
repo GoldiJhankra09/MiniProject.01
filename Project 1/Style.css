@@ -1,0 +1,661 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+
+    width: 100%;
+    padding: 15px 90px 15px 90px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+nav .left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+}
+
+nav .left img{
+    margin-right:20px;
+}
+
+nav p{
+    font-size:14px;
+    
+
+}
+
+nav p:hover{
+    border-bottom:2px solid black ;
+
+}
+
+nav .right{
+    display:flex;
+    align-items: center;
+    gap:15px;
+
+}
+
+.ri-arrow-down-s-line{
+    font-size:15px;
+
+}
+
+.ri-search-line{
+    font-size:20px
+}
+
+
+.ri-shopping-cart-2-line{
+    font-size:20px;
+}
+
+.profile{
+    height:30px;
+    width:30px;
+    background:white;
+    background-image: url(https://images.unsplash.com/photo-1779896412393-25bb58f05547?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position:center;
+    border-radius:50px;
+
+
+}
+
+section1{
+    position:relative;
+    height:90%;
+    width:100%;
+    align-self: center;
+    background-image:url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Desktop-Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=85&fit=constrain");
+    background-size: cover;
+    background-position:center;
+
+  
+}
+
+section1 img{
+    height:100%;
+    width:100%;
+
+}
+
+.content {
+    position:absolute;
+    top:30%;
+    left:5%;
+
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+    
+}
+
+.content h1{
+    font-weight:normal;
+    font-size: 45px;
+    color: white;
+
+}
+
+.content p{
+
+    color:white;
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+
+.content button{
+    height: 48px;
+    width: 98px;
+    border-radius: 10px;
+    color:rgb(14, 14, 92);
+    border:none;
+
+
+}
+
+.container3{
+    margin: 25px;
+    margin-bottom:50px;
+    padding: 25px;
+
+    display:flex;
+    justify-content: center;
+    gap: 30px;;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#384570;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.box{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4{
+    height:70%;
+    width:100%;
+    padding: 0 90px 0px 90px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+
+
+}
+
+.container4 .card{
+    height:90%;
+    padding:10px;
+    width:24%;
+    box-shadow: 0.5px 0.5px 8px rgb(189, 187, 187);
+    border-radius: 20px;
+    
+   
+}
+
+.container4 .card img{
+    width:100%;
+    border-radius:15px;
+
+}
+.content2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:50%;
+    
+}
+
+.content2 .text-inside{
+   display:flex;
+   flex-direction: column; 
+   gap:15px;
+}
+
+.content2 .text-inside p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight:400;
+
+
+}
+
+.content2 button{
+    width:fit-content;
+    padding:10px 15px;
+    font-size:16px;
+    border:none;
+    background-color:#0067b8;
+    color:white;
+    border-radius:10px;
+    
+}
+
+.card2{
+    height:70%;
+    width:90%;
+    display:flex;
+    justify-content:center;
+    justify-self: center;
+    padding:10px ;
+    border-radius:20px;
+    box-shadow: 0.5px 0.5px 8px rgb(189, 187, 187);
+}
+.content3{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    font-weight:300;
+    justify-content:space-between;
+    padding:10px ;
+    border-radius:20px;
+}
+.content3 .text-inside2{
+
+   display:flex;
+   flex-direction: column; 
+   gap:15px;
+   padding-left:10px;
+   padding-top:100px;
+   border-radius:20px;
+}
+.content3 .text-inside2 h3{
+   font-weight:400;
+}
+
+.content3 .text-inside2 p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight:200;
+
+
+}
+
+.content3 button{
+    width:fit-content;
+    padding:10px 20px;
+    font-size:16px;
+    border:none;
+    background-color:#0067b8;
+    color:white;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+.rightImg{
+    background-image:url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Card-Horizontal-Windows-11-Business-Transformation?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=95&fit=constrain");
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    width:50%;
+    padding:10px ;
+    border-radius:20px;
+   
+}
+
+.container3{
+    margin: 25px;
+    margin-bottom:50px;
+    padding: 25px;
+    display:flex;
+    justify-content: center;
+    gap: 30px;;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#384570;
+    font-weight: normal;
+    text-decoration: underline;
+
+}
+
+.box{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5{
+    height:70%;
+    width:100%;
+    padding: 0 90px 0px 90px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:40px;
+    background-color: #dceef7;
+
+
+}
+.container5 .card3{
+    height:90%;
+    width:30%;
+    box-shadow: 1px 1px 15px rgb(189, 187, 187);
+    border-radius:10px;
+    padding:10px;
+    background-color:white;
+    padding-bottom:5px;
+    
+
+    
+   
+}
+
+.card3 img{
+    width:100%;
+    border-radius:15px;
+}
+.content4{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:50%;
+    
+    
+}
+
+.content4 .text-inside3{
+   display:flex;
+   flex-direction: column; 
+   gap:15px;
+}
+
+.content4 .text-inside3 h3{
+    font-weight: 390;
+}
+.content4 .text-inside3 p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight:200;
+
+
+}
+
+.content4 button{
+    width:fit-content;
+    padding:5px 15px;
+    font-size:16px;
+    border:none;
+    background-color:#0067b8;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+.container6{
+   height:70%;
+    width:90%;
+    display:flex;
+    justify-content:center;
+    justify-self: center;
+    padding:10px ;
+    border-radius:20px;
+    margin-top: 10px;
+    box-shadow: 0.5px 0.5px 8px rgb(189, 187, 187);
+
+}
+
+
+
+.content5{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+
+}
+
+.content5 .text-inside5{
+
+   display:flex;
+   flex-direction: column; 
+   gap:15px;
+   padding-left:10px;
+   padding-top:100px;
+   border-radius:20px;
+}
+.content5 .text-inside5 h3{
+   font-weight:400;
+}
+
+.content5 .text-inside5 p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight:200;
+
+
+}
+
+.content5 button{
+    width:fit-content;
+    padding:5px 15px;
+    font-size:16px;
+    border:none;
+    background-color:#0067b8;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rightImg2{
+    height:100%;
+    width:50%;
+    background-image:url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Card-Horizontal-AI-Sustainability-Less-Plastic?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=95&fit=constrain");
+    background-position:center;
+    background-size:cover;
+    border-radius:10px;
+   
+}
+
+.Socials{
+    height:30%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    
+} 
+
+.Socials h4{
+   font-weight:500; 
+   align-self:center;
+   justify-self:center;
+   display:flex;
+}
+.Socials .icons{
+    display:flex;
+    justify-content:center;
+    margin:5px;
+    padding:10px;
+    font-size:large;
+    gap:50px;
+    border-radius: 6px;
+    border-color: #0067b8;
+    border-width:10px;
+    
+}
+
+ .icons i{
+    font-size:larger;
+    margin:10px;
+    display:flex;
+    justify-self:center;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgb(189, 187, 187);
+    border-radius:10px;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width:100%;
+}
+
+.info{
+    display:flex;
+    justify-content:center;
+    padding: 20px 100px;
+    background-color:#f2f2f2;
+    width:100%;
+    gap:10px;
+
+}
+
+.text-box{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+footer .text-box h4{
+    font-weight:500;
+  
+}
+
+footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+
+.text-box2{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+.textbox2 footer .text-box h4{
+    font-weight:500;
+  
+}
+
+.textbox2 footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+
+.text-box3{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+.text-box3 footer .text-box h4{
+    font-weight:500;
+  
+}
+
+.text-box3 footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+
+.text-box4{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+.text-box4 footer .text-box h4{
+    font-weight:500;
+  
+}
+
+.text-box4 footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+
+.text-box5{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+.text-box5 footer .text-box h4{
+    font-weight:500;
+  
+}
+
+.text-box5 footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+.text-box6{
+    color:gray;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    
+}
+
+.text-box6 footer .text-box h4{
+    font-weight:500;
+  
+}
+
+.text-box6 footer .text-box small{
+    font-size:12px;
+    font-weight:200;
+    cursor:pointer;
+    
+}
+
+.Trademarks{
+    height: 20%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color:#f2f2f2; 
+    color: gray;
+    padding:0px 50px;
+    cursor:pointer;
+
+    
+
+}
+
+.Trademarks small:hover{
+    border-bottom:1px solid gray;
+
+}
+
+.Trademarks i:hover{
+    border-bottom:1px solid gray;
+
+}
+
+.Trademarks .left{
+    display: flex;
+    gap:10px;
+    padding-left: 50px;
+
+}
+.Trademarks .right{
+    display: flex;
+    gap:10px;
+    padding-right:50px;
+}
+
